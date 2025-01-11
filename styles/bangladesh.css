@@ -184,6 +184,10 @@
     font-weight:bold;
   }
 
+  /* section styles  */
+  section{
+    margin-bottom:80px;
+  }
 
   /* Pillar section styles */
 .pillar-header{
@@ -221,3 +225,104 @@
     color:rgba(14,14,14,0.7);
   }
  
+
+  /* vission section styles  */
+
+  .vision-header{
+    color:rgba(14,14,14,1);
+    font-size:40px;
+    font-weight:bold;
+  }
+
+  .vision-header-description{
+    color:rgba(14, 14, 14, 0.7);
+    font-size:16px;
+    font-weight:regular;
+  }
+
+  .vision-section{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:24px;
+    margin-bottom:32px;
+  }
+
+  .vision1,.vision2,.vision3{
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    padding:32px;
+    border-radius: 16px;
+  }
+
+  .vision1{
+    background-color: rgba(84, 144, 245, 0.2);
+  }
+  .vision2{
+    background-color:rgba(198, 228, 214, 1);
+  }
+  .vision3{
+    background-color:rgba(247, 235, 207, 1)
+  }
+
+  .vision-img{
+    margin-bottom:24px;
+  }
+
+  .vision-title{
+    color:rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+  }
+
+  .vision-description{
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+  }
+
+  .vision-btn{
+    color:#FFFFFF;
+    font-size:16;
+    font-weight:semibold;
+    padding:11px 20px;
+    border-radius:8px;
+    border:none;
+  }
+
+  .vision1 .vision-btn{
+    background-color: rgba(84, 144, 245, 1);
+  }
+
+  .vision2 .vision-btn{
+    background-color: rgba(9, 161, 92, 1);
+  }
+
+  .vision3 .vision-btn{
+    background-color: rgba(255, 194, 57, 1);
+  }
+
+  .vision-Yunus{
+    background-image: url(../images/quote-bg.png);
+    background-repeat: no-repeat; 
+    background-position: 24px 35px;
+    border-radius:16px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    padding: 48px 24px;
+  }
+
+  .vision-Yunus-description{
+    color:rgba(14, 14, 14, 0.8);
+    font-size:16px;
+    font-weight:regular;
+  }
+
+  .vision-name{
+    color:rgba(14, 14, 14, 0.8);
+    font-size:20px;
+    font-weight:semibold;
+    margin-bottom:4px;
+  }
+
+  .vision-position{
+    color:rgba(14, 14, 14, 0.6);
+    font-size:16px;
+    font-weight:regular;
+  }
