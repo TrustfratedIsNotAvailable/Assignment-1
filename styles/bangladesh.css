@@ -111,10 +111,9 @@
   }
 
   /* overall styles  */
- /* header,main{
-    background-color: #F5F5F5;
- } */
-
+ *{
+   margin:0px 15px; 
+ }
 
   /* shared styles  */
   .btn{
@@ -127,10 +126,18 @@
     font-weight: semibold;
   }
 
+  .btn:hover{
+    background-color: transparent;
+    color: #006A50;
+    border:2px  solid #006A50;
+    cursor: pointer;
+  }
+
   /* header styles  */
   nav{
     margin-bottom:20px;
   }
+
   nav ul{
     display:flex;
     align-items:center;
@@ -165,7 +172,7 @@
   .banner{
     display: flex; 
     background-color: #C6E4D6;
-    padding: 80px 90px;
+    padding: 80px 50px;
     margin-bottom:80px;
     border-radius: 24px;
     align-items: center; 
@@ -176,12 +183,14 @@
     color:rgba(14, 14, 14, 0.5);
     font-size:24px;
     font-weight:medium;
+    margin-bottom: 16px;
   }
 
   .banner-description{
     color:#0E0E0E;
     font-size:56px;
     font-weight:bold;
+    margin-bottom:24px;
   }
 
   /* section styles  */
@@ -194,6 +203,7 @@
     color:rgba(14,14,14,1);
     font-size:40px;
     font-weight:bold;
+    margin-bottom: 32px;
 }
   .pillar-section{
     display:flex;
@@ -232,12 +242,14 @@
     color:rgba(14,14,14,1);
     font-size:40px;
     font-weight:bold;
+    margin-bottom:32px;
   }
 
   .vision-header-description{
     color:rgba(14, 14, 14, 0.7);
     font-size:16px;
     font-weight:regular;
+    margin-bottom:32px;
   }
 
   .vision-section{
@@ -291,18 +303,39 @@
     background-color: rgba(84, 144, 245, 1);
   }
 
+  .vision1 .vision-btn:hover{
+    background-color: transparent;
+    color: rgba(84, 144, 245, 1);
+    border:2px  solid rgba(84, 144, 245, 1);
+    cursor: pointer;
+
+  }
   .vision2 .vision-btn{
     background-color: rgba(9, 161, 92, 1);
+  }
+
+  .vision2 .vision-btn:hover{
+    background-color: transparent;
+    color: rgba(9, 161, 92, 1);
+    border:2px  solid rgba(9, 161, 92, 1);
+    cursor: pointer;
   }
 
   .vision3 .vision-btn{
     background-color: rgba(255, 194, 57, 1);
   }
 
+  .vision3 .vision-btn:hover{
+    background-color: transparent;
+    color: rgba(255, 194, 57, 1);
+    border:2px  solid rgba(255, 194, 57, 1);
+    cursor: pointer;
+  }
+
   .vision-Yunus{
     background-image: url(../images/quote-bg.png);
     background-repeat: no-repeat; 
-    background-position: 24px 35px;
+    background-position: 37px 20px;
     border-radius:16px;
     box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
     padding: 48px 24px;
@@ -312,6 +345,7 @@
     color:rgba(14, 14, 14, 0.8);
     font-size:16px;
     font-weight:regular;
+    margin-bottom:12px;
   }
 
   .vision-name{
@@ -326,3 +360,64 @@
     font-size:16px;
     font-weight:regular;
   }
+
+  /* Opinion section styles  */
+
+
+  /* Recent section styles  */
+  .recent-header{
+    font-size:40px;
+    font-weight:bold;
+    color:#0E0E0E;
+    margin-bottom:24px;
+  }
+
+  .recent-header-description{
+    font-size:16px;
+    font-weight:regular;
+    color:rgba(14, 14, 14, 0.7);
+    margin-bottom:32px;
+  }
+
+  .recent{
+    display:flex;
+    padding:32px;
+    justify-content: space-between;
+    gap:10px;
+    border-radius:16px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    margin-bottom:24px;
+  }
+
+  .recent-img{
+    border-radius: 24px;
+  }
+
+.recent-title{
+    font-size:32px;
+    font-weight:bold;
+    color:rgba(14, 14, 14, 0.8);
+    margin-bottom:12px;
+}
+.recent-channel{
+    margin-bottom:12px;
+}
+
+.recent-date,.recent-description{
+    color:rgba(14, 14, 14, 0.7);
+    font-size:16px;
+    font-weight:regular;
+}
+
+.recent-date{
+    margin-bottom:12px;
+    padding:0;
+    margin-left:0;
+}
+
+.gap{
+    gap:5px;
+}
+.recent-description{
+    margin-bottom:60px;
+}
